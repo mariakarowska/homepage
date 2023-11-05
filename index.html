@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona o mnie</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Marysia Karowska-Antkowiak</h1>
+            <img class="header__photo" src="https://i.ibb.co/G0MtXrt/mojezdjecie.jpg"
+                alt="zdjęcie mnie siedzącej na murku w Grecji">
+            </br><button class="header__button">Wyswietl <span class="js-header__button">powitanie</span></button>
+        </header>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__listItem"><a href="#moja-historia" class="nav__link">Moja historia</a></li>
+                <li class="nav__listItem"><a href="#moje-hobby" class="nav__link">Moje hobby</a></li>
+                <li class="nav__listItem"><a href="#muzyka" class="nav__link">Muzyka</a></li>
+                <li class="nav__listItem"><a href="#praca" class="nav__link">Doświadczenie zawodowe</a></li>
+                <li class="nav__listItem"><a href="#kontakt" class="nav__link">Kontakt</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 id="moja-historia" class="section__headline">Moja historia</h2>
+                <p>Studiowałam <strong>Informatykę i Ekonometrię</strong> na Uniwersytecie Ekonomicznym w Poznaniu. Na
+                    ostatnim
+                    roku
+                    studiów odbyłam
+                    staż w <strong>Santander Bank w Departamencie Systemu Centralnego</strong>. Po ukończonym stażu
+                    podjęłam tam
+                    stanowisko młodszego
+                    informatyka ds. analizy systemowej, a następnie awansowałam na stanowisko informatyka ds. analizy
+                    systemowej. Po
+                    trzech latach pracy tam urodziłam dwie córeczki więc przebywałam na urlopie macierzyńskim, a potem
+                    wychowawczym.
+                    <br>W międzyczasie próbowałam swoich sił zakładając własną działalność gospodarczą nie związaną z
+                    moim
+                    wykształceniem. <b>Ostatecznie chciałabym wrócić do informatyki, ale w innym zakresie.</b>
+                </p>
+            </section>
+            <section>
+                <h2 id="moje-hobby" class="section__headline">Moje hobby</h2>
+                <p>Często mówię sobie: <i>"Życie jest tylko jedno, więc trzeba czerpać z niego pełnymi garściami"</i>.
+                    Idąc
+                    przez
+                    życie z takim <em>motto</em> nigdy się nie nudzę. <br> Uwielbiam piec ciasta i tworzyć torty
+                    atrystyczne dla moich najbliższych. W przeciągu ostatnich trzech lat bardzo się w tej dziedzinie
+                    rozwinęłam.
+                    Sprawia mi to niezwykłą satysfakcję i radość. <br>
+                    Ostatnio bardzo pokochałam podróże i marzy mi się, aby w najbliższym
+                    czasie
+                    zwiedzić Turcję Egejską. Kultura turecka jest mi bardzo bliska, ponieważ od kilku lat mam wielkie
+                    zamiłowanie do
+                    tureckiego kina oraz języka.
+                    <br> Gdy tylko mam chwilę wolnego czasu to spędzam go aktywnie. Aerobik, rolki oraz
+                    rower to
+                    sporty, które lubię najbardziej.
+                </p>
+            </section>
+            <section>
+                <h2 id="muzyka" class="section__headline">Muzyka</h2>
+                <p class="section__music">Uwielbiam słuchać bardzo różnorodną muzykę. Rodzaj słuchanej przeze mnie
+                    muzyki w dużej
+                    mierze
+                    uzależniony
+                    jest od mojego aktualnego nastroju, ale również czynności jaką wykonuję np. podczas ćwiczeń bardzo
+                    lubię
+                    słuchać house i muzyki klubowej, a gdy jestem zestresowana słucham spokojnego soulu. Poniżej
+                    przedstawiam
+                    tabelę z moimi ulubionymi wykonawcami oraz utworami, które są najbliższe memu sercu.</p>
+                <div class="tableContainer">
+                    <table class="table">
+
+                        <caption class="table__caption">Moje ulubione piosenki</caption>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                            <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                            <th class="table__cell table__cell--header" scope="col">Gatunek muzyczny</th>
+                            <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">"Beautiful People"</th>
+                            <td class="table__cell table__color" rowspan="2">Ed Sheeran</td>
+                            <td class="table__cell table__color" rowspan="2">Pop</td>
+                            <td class="table__cell table__color">2019</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">"Photograph"</th>
+                            <td class="table__cell table__color">2015</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">"High"</th>
+                            <td class="table__cell table__color">The Chainsmokers</td>
+                            <td class="table__cell table__color">Elektorniczna</td>
+                            <td class="table__cell table__color">2022</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">"Say you love me"</th>
+                            <td class="table__cell table__color">Jessie Ware</td>
+                            <td class="table__cell table__color">R&B</td>
+                            <td class="table__cell table__color">2014</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">"Nie ma skróconych dróg"</th>
+                            <td class="table__cell table__color">Grammatik</td>
+                            <td class="table__cell table__color">Hip-hop</td>
+                            <td class="table__cell table__color">2000</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">"Iris"</th>
+                            <td class="table__cell table__color">Goo Goo Dolls</td>
+                            <td class="table__cell table__color">Soft rock</td>
+                            <td class="table__cell table__color">1998</td>
+                        </tr>
+                        <tr>
+                            <th class="table__cell table__cell--header" scope="row">"Far away"</th>
+                            <td class="table__cell table__color">Nickelback</td>
+                            <td class="table__cell table__color">Rock</td>
+                            <td class="table__cell table__color">2006</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </section>
+            <section>
+                <h2 id="praca" class="section__headline">Doświadczenie zawodowe</h2>
+                <h3 class="section__work">Santander Bank</h3>
+                <h4>informatyk ds. analizy systemowej</h4>
+                <h5>Do moich zadań należało: opieka nad systemem procesującym klientów z przeterminowaniami, prowadzenie
+                    projektów
+                    dotyczących wprowadzeniem zmian do procesu kredytowego, tworzenie pism za pomocą RTF oraz wiele
+                    innych
+                    zadań.
+                </h5>
+                <h6>lipiec 2014-lipiec 2021</h6>
+                <h3 class="section__work">Santander Bank</h3>
+                <h4>Młodszy informatyk ds. analizy systemowej</h4>
+                <h5>Do moich zadań należało: opieka nad systemem procesującym klientów z przeterminowaniami,
+                    uczestniczenie we
+                    wprowadzaniu zmian do procesu kredytowego i wiele innych.</h5>
+                <h6>luty 2013-czerwiec 2014</h6>
+                <h3 class="section__work">Santander Bank</h3>
+                <h4>Stażysta</h4>
+                <h5>Do moich zadań należało: testowanie zmian procesu kredytowego na środowisku testowym, wprowadzanie
+                    procesów
+                    kredytowych na środowisko testowe i wiele innych</h5>
+                <h6>sierpień 2012-styczeń 2013</h6>
+            </section>
+        </main>
+        <footer class="footer">
+            <h2 id="kontakt" class="footer__contact">Kontakt</h2>
+            <p><b>Numer telefonu:</b> <a href="tel:+48600471351">600471351</a>
+                </br><b>Adres e-mail: </b><a href="mailto:mariakarowsk@gmail.com">mariakarowska@gmail.com</a> </p>
+        </footer>
+    </div>
+</body>
+
+</html>

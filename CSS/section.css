@@ -1,0 +1,12 @@
+.section__music {
+    padding-bottom: 20px;
+}
+
+.section__headline {
+    color: rgb(67, 202, 150);
+    padding: 15px;
+}
+
+.section__work {
+    color: red;
+}
