@@ -9,3 +9,10 @@
     outline: 10px solid rgb(129, 177, 133);
     box-shadow: 10px 6px 20px 6px #010000;
 }
+
+.header__title {
+    color: rgb(69, 175, 140);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
